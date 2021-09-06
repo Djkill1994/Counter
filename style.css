@@ -1,0 +1,78 @@
+body {
+    background-image: url("/img/637668.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    font-family: 'Permanent Marker', cursive;
+    user-select: none;
+}
+
+h1 {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.start {
+    background-image: url("/img/752367-middle-removebg-preview.png");
+    width: 250px;
+    height: 100px;
+    background-size: 250px;
+}
+
+.start, .plus-count, .minus-count:hover {
+    cursor: pointer;
+}
+
+.start:hover {
+    background-size: 255px;
+    box-shadow: 5px 10px 15px;
+    border-radius: 20px;
+}
+
+.start:active {
+    background-size: 250px;
+}
+
+.counter-window {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    left: 450px;
+    top: 50px;
+    box-shadow: 5px 15px 20px;
+    border-radius: 50px;
+}
+
+.plus-count, .minus-count, .heading-counter, .number-window, h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    opacity: 0.7;
+    text-shadow: 10px 5px 5px;
+}
+
+.heading-counter {
+    font-size: 50px;
+}
+
+.number-window {
+    font-size: 180px;
+}
+
+.plus-count, .minus-count {
+    font-size: 35px;
+}
+
+.plus-count:hover, .minus-count:hover {
+    text-shadow: 3px 5px 8px;
+    font-size: 36px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+.plus-count:active, .minus-count:active {
+    font-size: 34px;
+}
